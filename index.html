@@ -1,0 +1,102 @@
+<html>
+<head>
+    <title>Testimonails Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+         <h1>Testimonials</h1>   
+
+         <div class="container">
+            <div class="indicator">
+                <span class="btn active"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+                <span class="btn"></span>
+            <div class="testimonial">
+            <div class="slide-row" id="slide">
+                <div class="slide-col">...</div>
+            </div>
+
+         </div>
+
+        <div class="slide-row">
+            <div class="slide-col">
+                <div class="user-text"></div>
+                    <p>Yoseb Boari, S.E., M.Si adalah Seorang Dosen pada Program Studi Ekonomi Pembangunan Universitas Ottow Geissler Papua.</p>
+                    <h3>Yoseb</h3>
+                    <div class="slide-col">...</div>
+                    <p>Zara Inc.</p>
+                </div>
+                <div class="user-img">
+                    <img src="user-1.png">
+            </div>
+        </div>
+        <div class="slide-col">
+            <div class="user-text"></div>
+                <p>Endah Dwi Lestari, S.Pd., M.M adalah Seorang Dosen pada Program Studi Manajemen Universitas Ottow Geissler Papua.</p>
+                <h3>Endah</h3>
+                <div class="slide-col">...</div>
+                <p>Treymont Inc.</p>
+            </div>
+            <div class="user-img">
+                <img src="user-2.png">
+        </div>
+    </div><div class="slide-col">
+        <div class="user-text"></div>
+            <p>Shofia Y. Manginte, S.E., M.SA.,Ak adalah Seorang Dosen pada Program Studi Akuntansi Universitas Ottow Geissler Papua.</p>
+            <div class="slide-col">...</div>
+            <h3>Shofia</h3>
+            <p>Hallmark Inc.</p>
+        </div>
+        <div class="user-img">
+            <img src="user-3.png">
+    </div>
+</div><div class="slide-col">
+    <div class="user-text"></div>
+        <p>Jimmi Ari Duri, S.E., M.Si adalah Seorang Dosen pada Program Studi Ekonomi Pembangunan Universitas Ottow Geissler Papua.</p>
+        <h3>Jimmi</h3>
+        <p>Author Inc.</p>
+    </div>
+    </div>
+    <div class="user-img">
+        <img src="user-4.png">
+</div>
+<script>
+
+    var btn = document.getElementsByClassName("btn");
+    var slide = document.getElementById(slide)
+
+    btn[0].onclick = function(){
+        slide.style.transform = "translateX(0px)";
+        for(i=o;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+        this.classList.add("active"); 
+
+    }
+    btn[1].onclick = function(){
+        slide.style.transform = "translateX(-800px)";
+        for(i=o;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+    }
+    btn[2].onclick = function(){
+        slide.style.transform = "translateX(-1600px)";
+        for(i=o;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+    }
+    btn[3].onclick = function(){
+        slide.style.transform = "translateX(-2400px)";
+        for(i=o;i<4;i++){
+            btn[i].classList.remove("active");
+        }
+    }
+</script>
+</div>
+</body>
+
+    </div>
+</body>
+</html>
